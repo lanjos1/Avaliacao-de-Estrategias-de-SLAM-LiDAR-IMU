@@ -20,13 +20,13 @@ A bag com o caminho do husky usado nesse projeto está neste drive -> https://dr
 
 Vista isométrica do mapa gerado pelo LeGO-LOAM com coloração por altura:
 
-![Mapa LeGO-LOAM - Vista Isométrica Colorida](images/maps/LeGO-LOAM_com_IMU_results/vista_isometrica_colorida.png)
+![Mapa LeGO-LOAM - Vista Isométrica Colorida](images/maps/LeGO-LOAM_com_IMU_results/vista_isometrica.png)
 
 ### LIO-SAM
 
 Vista isométrica do mapa gerado pelo LIO-SAM com trajetória estimada em azul claro:
 
-![Mapa LIO-SAM - Vista Isométrica](images/maps/LIO-SAM_results/visao_isometrica.png)
+![Mapa LIO-SAM - Vista Isométrica](images/maps/LIO-SAM_results/visao_isometrica_colorida.png)
 
 ---
 
