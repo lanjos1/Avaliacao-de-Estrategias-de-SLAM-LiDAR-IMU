@@ -209,7 +209,7 @@ rosbag record -O comparacao_legoLOAM_semIMU.bag \
   /gazebo_ground_truth/odom /aft_mapped_to_init /tf /tf_static
 
 rostopic echo -b comparacao_legoLOAM_semIMU.bag -p /aft_mapped_to_init \
-  > lego_loam_sem_imu.csv
+  > lego_loam_sem_imu_68.csv
 
 rostopic echo -b comparacao_legoLOAM_semIMU.bag -p /gazebo_ground_truth/odom \
   > ground_truth.csv
@@ -224,7 +224,7 @@ rosbag record -O comparacao_legoLOAM_comIMU.bag \
   /gazebo_ground_truth/odom /aft_mapped_to_init /tf /tf_static
 
 rostopic echo -b comparacao_legoLOAM_comIMU.bag -p /aft_mapped_to_init \
-  > lego_loam_com_imu.csv
+  > lego_loam_com_imu_68.csv
 ```
 
 #### LIO-SAM
