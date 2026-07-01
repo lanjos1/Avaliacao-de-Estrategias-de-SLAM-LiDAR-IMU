@@ -32,9 +32,9 @@ O LIO-SAM apresentou uma nitidez maior nas paredes, o que observa-se pelas linha
 
 No LeGO-LOAM a estrutura geométrica do ambiente está bem reconhecível, em alguns pontos melhor que o LIO-SAM, mas os pontos nas paredes parecem mais ruidosos, tendo uma espessura maior nas superfícies, o que é comum de abordagens que dependem apenas do LiDAR ou tem um acoplamento fraco com a IMU, porque pequenas variações de rotação rápida podem gerar um desalinhamento residual antes da otimização global. Sem IMU ou com acoplamento fraco o algoritmo tenta corrigir distorções usando apenas a velocidade estimada pelo próprio LiDAR, então se o robô der um tranco rápido ou fazer um giro, essa estimativa pode falhar e com isso linhas que deveriam ser retas ficam tortas ou duplicadas na nuvem de pontos. A IMU opera a frequências altas capturando acelerações e velocidades angulares instantâneas, então devido ao acoplamento forte com ela o LIO-SAM usa esses dados para saber exatamente quanto o sensor se moveu durante a fração de milissegundo em que a nuvem estava sendo varrida então cada ponto é geometricamente projetado para a posição correta, eliminando o borrões.
 
-LIO-SAM: Exibe a trajetória como uma linha contínua e suave em ciano, finalizando com uma seta rosa que indica a pose e orientação exata do sensor em tempo real. É uma representação ideal para analisar a suavidade do movimento.
-
-LeGO-LOAM: Representa as poses-chave (keyframes) usando cubos/quadrados coloridos discretos que mudam de cor ao longo do percurso. Essa visualização ajuda a identificar onde os fatores de restrição e nós do grafo de pose foram criados no backend.
+Representação da trajetória:
+- O LIO-SAM exibe a trajetória como uma linha contínua e suave em ciano, finalizando com uma seta rosa que indica a pose e orientação exata do sensor em tempo real. É uma representação ideal para analisar a suavidade do movimento.
+- O LeGO-LOAM representa os (keyframes) usando cubos/quadrados coloridos discretos que mudam de cor ao longo do percurso. Essa visualização ajuda a identificar onde os fatores de restrição e nós do grafo de pose foram criados no backend.
 
 
 ## Resultados
