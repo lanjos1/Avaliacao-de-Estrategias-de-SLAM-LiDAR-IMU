@@ -7,8 +7,10 @@ Análise comparativa de estratégias SLAM LiDAR-IMU com LeGO-LOAM e LIO-SAM em a
 ## Ambiente de Simulação
 
 O ambiente simulado utilizado é o laboratório do LaR (Laboratório de Robótica) da UFBA, disponível no repositório [lar_gazebo](https://github.com/lar-deeufba/lar_gazebo). O robô utilizado é o Clearpath Husky A200 equipado com o sensor Velodyne Puck VLP-16.
+A bag com o caminho do husky usado nesse projeto está neste drive -> https://drive.google.com/drive/folders/1uE2QlnkfLwvhhe4cZrvPHQz-vqMgg5U5?usp=sharing
 
 ![Ambiente Simulado no Gazebo](images/lar_e_husky.png)
+
 
 ---
 
@@ -271,17 +273,5 @@ python3 erros_comparativo.py
 **Coorientador:** Prof. Dr. Paulo Cesar Machado de Abreu Farias
 
 Programa de Pós-Graduação em Engenharia Elétrica e de Computação — UFBA
-
-
-
-
-
-
-
-
-
-
-
-A bag com o caminho do husky -> https://drive.google.com/drive/folders/1uE2QlnkfLwvhhe4cZrvPHQz-vqMgg5U5?usp=sharing
 
 
