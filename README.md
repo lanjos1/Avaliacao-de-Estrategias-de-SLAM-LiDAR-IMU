@@ -7,7 +7,6 @@ Análise comparativa de estratégias SLAM LiDAR-IMU com LeGO-LOAM e LIO-SAM em a
 ## Ambiente de Simulação
 
 O ambiente simulado utilizado é o laboratório do LaR (Laboratório de Robótica) da UFBA, disponível no repositório [lar_gazebo](https://github.com/lar-deeufba/lar_gazebo). O robô utilizado é o Clearpath Husky A200 equipado com o sensor Velodyne Puck VLP-16.
-A bag com o caminho do husky usado nesse projeto está neste drive -> https://drive.google.com/drive/folders/1uE2QlnkfLwvhhe4cZrvPHQz-vqMgg5U5?usp=sharing
 
 ![Ambiente Simulado no Gazebo](images/lar_e_husky.png)
 
@@ -53,14 +52,6 @@ Evolução temporal do erro de posição (metros) e erro de orientação em yaw 
 | LeGO-LOAM (Com IMU) | 0.0632 | 0.1549 | 94.8253 |
 | LeGO-LOAM (Sem IMU) | 0.0680 | 0.1620 | 94.7035 |
 | LIO-SAM | 0.1470 | 0.2449 | 2.0562 |
-
-### Eficiência Computacional e Taxa de Atualização
-
-| Algoritmo / Modo | Frequência Média (Hz) | Tempo Médio (ms) | Tempo Máximo (ms) | Jitter / Std (ms) |
-|:---|:---:|:---:|:---:|:---:|
-| LeGO-LOAM (Com IMU) | 10.00 | 100.00 | 107.11 | 2.87 |
-| LeGO-LOAM (Sem IMU) | 9.88 | 101.21 | 110.68 | 3.99 |
-| LIO-SAM | 5.01 | 199.40 | 220.82 | 6.69 |
 
 ---
 
