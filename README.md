@@ -28,7 +28,6 @@ Vista isométrica do mapa gerado pelo LIO-SAM com trajetória estimada em azul c
 ![Mapa LIO-SAM - Vista Isométrica](images/maps/lio_sam/vista_isometrica_colorida.png)
 
 ---
-O LIO-SAM apresentou uma nitidez maior nas paredes, o que observa-se pelas linhas horizontais correspondentes aos feixes do LiDAR bem alinhadas, e sem o efeito de paredes fantasmas, o que indica uma boa estimativa de odometria e uma boa calibração temporal. No LeGO-LOAM a estrutura geométrica do ambiente está bem reconhecível, em alguns pontos melhor que o LIO-SAM, mas os pontos nas paredes parecem mais ruidosos, tendo uma espessura maior nas superfícies, o que é comum de abordagens que dependem apenas do LiDAR ou tem um acoplamento fraco com a IMU, porque pequenas variações de rotação rápida podem gerar um desalinhamento residual antes da otimização global. Sem IMU ou com acoplamento fraco o algoritmo tenta corrigir distorções usando apenas a velocidade estimada pelo próprio LiDAR, então se o robô der um tranco rapidamente ou fazer um giro, essa estimativa pode falhar e com isso linhas que deveriam ser retas ficam tortas ou duplicadas na nuvem de pontos. A IMU opera a frequências altas capturando acelerações e velocidades angulares instantâneas, então devido ao acoplamento forte com ela o LIO-SAM usa esses dados para saber exatamente quanto o sensor se moveu durante a fração de milissegundo em que a nuvem estava sendo varrida então cada ponto é geometricamente projetado para a posição correta, eliminando o borrões.
 
 
 ## Resultados
