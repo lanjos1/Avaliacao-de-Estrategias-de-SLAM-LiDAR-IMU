@@ -255,9 +255,7 @@ python3 erros_comparativo.py
 
 ---
 
-## Citation
-
-If you use LeGO-LOAM as part of this work, please cite the original paper:
+## LeGO-LOAM paper
 
 ```
 @inproceedings{legoloam2018,
@@ -279,4 +277,4 @@ If you use LeGO-LOAM as part of this work, please cite the original paper:
 **Advisor:** Prof. Dr. Tiago Trindade Ribeiro
 **Co-advisor:** Prof. Dr. Paulo Cesar Machado de Abreu Farias
 
-Graduate Program in Electrical and Computer Engineering — UFBA
+Master's Degree in Electrical and Computer Engineering — UFBA
