@@ -272,10 +272,8 @@ python3 erros_comparativo.py
 
 ## Author
 
-- Ludmila Nascimento dos Anjos
+- Ludmila Nascimento dos Anjos (Master's Student in Electrical and Computer Engineering — UFBA)
 
 **Advisor:** Prof. Dr. Tiago Trindade Ribeiro
 
 **Co-advisor:** Prof. Dr. Paulo Cesar Machado de Abreu Farias
-
-Master's Degree in Electrical and Computer Engineering — UFBA
